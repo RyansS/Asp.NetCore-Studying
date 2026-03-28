@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\monte\\source\\repos\\ComputersAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFB62BD-0EFA-4798-9BF4-6802005D482A}|ComputersAPI\\ComputersAPI.csproj|c:\\users\\monte\\source\\repos\\computersapi\\computersapi\\controllers\\computercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFB62BD-0EFA-4798-9BF4-6802005D482A}|ComputersAPI\\ComputersAPI.csproj|solutionrelative:computersapi\\controllers\\computercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFB62BD-0EFA-4798-9BF4-6802005D482A}|ComputersAPI\\ComputersAPI.csproj|c:\\users\\monte\\source\\repos\\computersapi\\computersapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1EFB62BD-0EFA-4798-9BF4-6802005D482A}|ComputersAPI\\ComputersAPI.csproj|solutionrelative:computersapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFB62BD-0EFA-4798-9BF4-6802005D482A}|ComputersAPI\\ComputersAPI.csproj|c:\\users\\monte\\source\\repos\\computersapi\\computersapi\\models\\computermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFB62BD-0EFA-4798-9BF4-6802005D482A}|ComputersAPI\\ComputersAPI.csproj|solutionrelative:computersapi\\models\\computermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComputerModel.cs",
+              "DocumentMoniker": "C:\\Users\\monte\\source\\repos\\ComputersAPI\\ComputersAPI\\Models\\ComputerModel.cs",
+              "RelativeDocumentMoniker": "ComputersAPI\\Models\\ComputerModel.cs",
+              "ToolTip": "C:\\Users\\monte\\source\\repos\\ComputersAPI\\ComputersAPI\\Models\\ComputerModel.cs",
+              "RelativeToolTip": "ComputersAPI\\Models\\ComputerModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T20:42:32.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\monte\\source\\repos\\ComputersAPI\\ComputersAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ComputersAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\monte\\source\\repos\\ComputersAPI\\ComputersAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ComputersAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T20:41:54.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComputerController.cs",
+              "DocumentMoniker": "C:\\Users\\monte\\source\\repos\\ComputersAPI\\ComputersAPI\\Controllers\\ComputerController.cs",
+              "RelativeDocumentMoniker": "ComputersAPI\\Controllers\\ComputerController.cs",
+              "ToolTip": "C:\\Users\\monte\\source\\repos\\ComputersAPI\\ComputersAPI\\Controllers\\ComputerController.cs",
+              "RelativeToolTip": "ComputersAPI\\Controllers\\ComputerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T20:41:50.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
