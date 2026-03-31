@@ -4,21 +4,23 @@ namespace ComputersAPI.Models
 {
     public class ComputerModel
     {
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "Your model exceeded the maximum amount of characters")]
         [MaxLength(255)]
-        public string Model { get; private set; }
+        public string Model { get; set; }
         //**********************
         [Required(ErrorMessage = "The price is invalid")]
         [Range(100, 150000)]
-        public decimal Price { get; private set; }
+        public decimal Price { get; set; }
         //**********************
         [MaxLength(30)]
-        public string Os { get; private set; }
+        public string Os { get; set; }
         //**********************
         [MaxLength (500)]
-        public string Description { get; private set; }
+        public string Description { get; set; }
         //**********************
-        public int Id { get; set; }
+        
 
     }
 }
