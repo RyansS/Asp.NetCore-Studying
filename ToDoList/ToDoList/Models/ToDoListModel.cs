@@ -4,6 +4,7 @@ namespace ToDoList.Models
 {
     public class ToDoListModel
     {
+        [Key]
         [Required]
         public int Id { get; set; }
 

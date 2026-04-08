@@ -1,22 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ToDoList.Data;
 using ToDoList.Models;
 
 namespace ToDoList.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/todolist")]
     public class ToDoListController : ControllerBase
     {
-        private static List<ToDoListModel> Tasks = new List<ToDoListModel>();
-        private static int id = 0;
+        private TaskContext _context;
+
+        public ToDoListController (TaskContext context)
+        {
+            _context = context;
+        }
 
         //Create Task
         [HttpPost]
 
         public CreatedAtActionResult PostCreateTask ([FromBody] ToDoListModel newTask)
         {
-            newTask.Id = id++;
-            Tasks.Add(newTask);
+            _context.Add(newTask);
+            _context.SaveChanges();
 
             return CreatedAtAction(nameof(GetTaskById), new {id = newTask.Id}, newTask);
         }
@@ -25,14 +30,14 @@ namespace ToDoList.Controllers
 
         public IActionResult GetAllTasks ()
         {
-            return Ok(Tasks);
+            return Ok(_context.Tasks);
         }
 
         [HttpGet("{id}")]
 
         public IActionResult GetTaskById (int id)
         {
-            var TaskFound = Tasks.FirstOrDefault(task => task.Id == id);
+            var TaskFound = _context.Tasks.FirstOrDefault(task => task.Id == id);
             if (TaskFound == null) return NotFound();
 
             return Ok(TaskFound);

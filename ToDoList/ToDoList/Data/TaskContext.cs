@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ToDoList.Models;
 
 namespace ToDoList.Data
 {
@@ -9,6 +10,6 @@ namespace ToDoList.Data
 
         }
 
-        public DbSet<Task> Tasks { get; set; }
+        public DbSet<ToDoListModel> Tasks { get; set; }
     }
 }
